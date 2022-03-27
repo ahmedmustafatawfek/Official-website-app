@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
 function App() {
+
+ const btnLinkedIn=() => {
+  window.open('https://www.linkedin.com/in/ahmed-mustafa-8b980b135/')
+ }
+
+ const btnGitHub=() => {
+  window.open('https://github.com/ahmedmustafatawfek')
+ }
+ 
+ const btnFaceBook=() => {
+ window.open('https://www.facebook.com/profile.php?id=100002672558386')
+  }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="container wp-block-cover-image-text"> 
+
+         <div className="btn-position">
+              <button onClick={btnLinkedIn} className="btn">LinkedIn</button> 
+         </div>
+         
+         <div className="btn-position">
+              <button onClick={btnGitHub} className="btn">GitHub</button>     
+         </div>
+
+         <div className="btn-position">
+            <button onClick={btnFaceBook} className="btn">Facebook</button>    
+         </div>
+      </div>
     </div>
   );
 }
