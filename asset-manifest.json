@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Official-website-app/static/css/main.6fec2d5c.css",
+    "main.js": "/Official-website-app/static/js/main.9b88377b.js",
+    "static/media/apple-developer-wallpaper-just-in-time-for-wwdc.png": "/Official-website-app/static/media/apple-developer-wallpaper-just-in-time-for-wwdc.8115d8bd8405e21287a9.png",
+    "index.html": "/Official-website-app/index.html",
+    "main.6fec2d5c.css.map": "/Official-website-app/static/css/main.6fec2d5c.css.map",
+    "main.9b88377b.js.map": "/Official-website-app/static/js/main.9b88377b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fec2d5c.css",
+    "static/js/main.9b88377b.js"
+  ]
+}
